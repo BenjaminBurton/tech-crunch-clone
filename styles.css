@@ -1,0 +1,84 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #f5f5f5;
+      padding: 1rem;
+      height: 100vh;
+      box-shadow: 1px 0 4px rgba(0,0,0,0.1);
+    }
+    .sidebar h1 {
+      color: #00aa5b;
+      font-size: 1.5rem;
+    }
+    .sidebar nav a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #000;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .top-article {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    .top-article img {
+      width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+    .side-articles {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .side-articles article {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+    }
+    .latest-section {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .latest-article {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    .latest-article img {
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 4px;
+    }
+    .label {
+      color: #00aa5b;
+      font-weight: bold;
+      font-size: 0.85rem;
+    }
+    .headline {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .author-time {
+      font-size: 0.8rem;
+      color: #666;
+      margin-top: 0.3rem;
+    }
+    .summary {
+      font-size: 0.9rem;
+      color: #333;
+    }
